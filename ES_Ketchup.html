@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Fabilon - Affichage de produits locaux</title>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+
+<!--Favicon-->
+<link rel="icon" href="img/Fabilon_favicon-B_2017.ico" type="image/ico" sizes="16x16">
+
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/camera.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/camera.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+      <script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+    });
+</script> 
+<script>
+$(window).load(function() {
+    $(function() {
+            $('#foo2').carouFredSel({
+				auto: false,
+				responsive: true,
+				width: '100%',
+				prev: '#prev2',
+				next: '#next2',
+				scroll: 1,
+				items: {
+					height: 'auto',
+					width:230,
+					visible: {
+						min: 1,
+						max: 6
+					}
+				},
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+		}); 	 				
+    });
+</script> 
+
+<!--Font awesome for social media footer Icons-->
+<script src="https://use.fontawesome.com/064d9358a8.js"></script>
+
+</head>
+<body>
+<div class="global">
+
+<header>
+<!--Header bar-->
+    <div class="followBox">
+        <div id="header_bar_top" class="container"> 
+            <!--<a href="#">English</a>-->
+        </div>
+    </div>
+<!--Header bar ends-->
+    <div class="container">
+<!--Logo-->
+        <h1 class="navbar-brand navbar-brand_">
+            <a href="index.html">
+                <img src ="img\Fabilon_Logo_2017.png">
+            </a>
+        </h1>
+<!--Social Media Icons-->
+        <div id="mobile_center" class="navbar-text pull-right">
+            <a href="#"><i id="facebook_style" class="fa fa-facebook-square fa-3x"></i></a>
+            <a href="#"><i id="twitter_style" class="fa fa-twitter-square fa-3x"></i></a>
+            <a href="#"><i id="instagram_style" class="fa fa-instagram fa-3x"></i></a>
+            <a href="#"><i id="pinterest_style" class="fa fa-pinterest-square fa-3x"></i></a>
+        </div>
+    </div>
+</header>
+    <hr id="header_separator" class="visible-xs">
+
+<!--Specific to product page:-->
+
+    <div id="blank_separator" class="container center_div">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9"> <!--Product Area-->
+                <div>
+                    <h5>Ketchup aux Fruits maison</h5>
+                </div>
+<!--Product Image Area-->
+                <div class="image_area">
+                    <ul class="shown_image photo_nav">
+                        <li class="showing">
+                            <img id="myImg" class="imageToSwap hidden_626px-max" itemprop="image" src="img\ES_Bettraves_Ketchup_Concombres.jpg">
+                            
+                            <img class="imageToSwap visible_626-max" itemprop="image" src="img\ES_Bettraves_Ketchup_Concombres.jpg">
+                        </li>
+                    </ul>
+
+<!--
+
+                    <div class="image_thumb">
+                        <ul class="selected">
+                            <li class="option active" data-value="img\ES_Assaisonement_gourmet.jpg">
+                                <div>
+                                    <img src="img\ES_Assaisonement_gourmet.jpg">    
+                                </div>
+                            </li>
+                            <li class="option" data-value="img\ES_Marinade&Assaisonement.jpg">
+                                <div>
+                                    <img src="img\ES_Marinade&Assaisonement.jpg">    
+                                </div>
+                            </li>
+                            <li class="option" data-value="img\Constant-Roche_Tomates.jpg">
+                                <div>
+                                    <img src="img\Constant-Roche_Tomates.jpg">    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+-->
+
+
+                </div>
+<!--Product Info Area-->
+                <div class="info_area">
+                    <div>
+                        <span>Prix:&nbsp;&nbsp;</span>
+                        <span id="product_price">4,75 $</span>
+                        <!-- <span id="product_quantity">&nbsp;/lb</span> -->
+                    </div>
+                    <br>
+                    <table class="product_attributes">
+                        <tr>
+                            <th>Format:</th>
+                            <td>Contenant 250 ml</td>
+                        </tr>
+
+<!--
+                        <tr>
+                            <th>Type de fruit:</th>
+                            <td><a href="#">Pommes</a></td>
+                        </tr>
+                        <tr>
+                            <th>Sorte:</th>
+                            <td><a href="#">McIntosh</a></td>
+                        </tr>
+                        <tr>
+                            <th>Provenance:</th>
+                            <td><a href="#">États-Unis</a></td>
+                        </tr>
+-->
+
+                    </table>
+                    <br>
+                    <table class="product_description">
+                        <tr>
+                            <td>
+                                <p>Illustrée au centre, le Ketchup aux Fruits maison est préparée entièrement au Québec par l’Érablière du sanglier.</p> 
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="product_description">
+                        <tr>
+                            <td>
+                                <p><b>Ingredients: </b>...</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="merchant_area" class="col-lg-3 col-md-3 col-sm-3"> <!--Merchant Area-->
+                <div class="merchant_logo">
+                    <div class="image">
+                        <img src="img\erabliere-du-sanglier-logo.png">
+                    </div>
+                </div>
+                <div>
+                    <h6>Érablière du Sanglier</h6>
+                </div>
+                <div>
+                    <span class="merchant_address">Adresse:</span>
+                    <span>8405 Chemin St Jérusalem, Lachute, QC J8H 2C5</span>
+                    <a href="https://www.google.ca/maps/place/L'%C3%89rabli%C3%A8re+du+Sanglier/@45.628486,-74.2779911,14z/data=!4m5!3m4!1s0x0:0x864f601c096a1806!8m2!3d45.6294764!4d-74.2680777" target="_blank"><button id="button_map" class="btn btn-default center_button merchant_button">Carte</button></a>
+                </div>
+                <br>
+                <div>
+                    <span class="merchant_hours">Horaires:</span>
+
+                    <p>Sur rendez-vous seulement</p>
+
+<!--
+                    <table>
+                        <tr>
+                            <td>Lundi</td>
+                            <td>08:00–20:00</td>
+                        </tr>
+                        <tr>
+                            <td>Mardi</td>
+                            <td>08:00–21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Mercredi</td>
+                            <td>08:00–21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Jeudi</td>
+                            <td>08:00–21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Vendredi</td>
+                            <td>08:00–21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Samedi</td>
+                            <td>10:00–20:00</td>
+                        </tr>
+                        <tr>
+                            <td>Dimanche</td>
+                            <td>11:00–18:00</td>
+                        </tr>
+                    </table>
+-->
+
+
+                </div>
+                <br>
+                <div>
+                    <span>Contactez le commerçant:</span>
+                    <br>
+                    <a href="tel:+15147310808">
+                    <button  class="btn btn-default center_button merchant_button">(514) 731-0808</button> </a><!--verification for telephone number prog-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Modal Image module-->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+<!--footer-->
+<footer>
+    <section>
+        <div class="container">
+            <div class="row">
+                <section id="footer_links" class="col-sm-4">
+
+                    <a id="footer_text" href="contact.html">Contactez-nous</a><br>
+                    
+                    <hr class="visible-xs">
+                </section>
+                <section class="social_media_icons col-sm-8"> 
+                    <div class="navbar-text pull-right">
+                        <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-square fa-3x"></i></a>
+                    </div>
+                </section>
+            </div>
+            <div id="copyright" class="text-center">&copy; 2017 Fabilon Tous droits réservés</div>
+        </div>
+    </section>
+</footer>
+
+<!--Remove this-->
+<div class="reyg">Web Design: <a href="http://www.metamorphozis.com" class="zxde">Free Website Templates</a></div> <!--Remove this-->
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>

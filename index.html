@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Fabilon - Affichage de produits locaux</title>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+
+<!--Favicon-->
+<link rel="icon" href="img/Fabilon_favicon-B_2017.ico" type="image/ico" sizes="16x16">
+
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/camera.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/camera.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+      <script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+    });
+</script> 
+<script>
+$(window).load(function() {
+    $(function() {
+            $('#foo2').carouFredSel({
+				auto: false,
+				responsive: true,
+				width: '100%',
+				prev: '#prev2',
+				next: '#next2',
+				scroll: 1,
+				items: {
+					height: 'auto',
+					width:230,
+					visible: {
+						min: 1,
+						max: 6
+					}
+				},
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+		}); 	 				
+    });
+</script> 
+
+<!--Font awesome for social media footer Icons-->
+<script src="https://use.fontawesome.com/064d9358a8.js"></script>
+
+</head>
+
+<body>
+<div class="global">
+
+<header>
+<!--Header bar-->
+    <div class="followBox">
+        <div id="header_bar_top" class="container">
+            <!--<a href="#">English</a>-->
+        </div>
+    </div>
+<!--Header bar ends-->
+    <div class="container">
+<!--Logo-->
+        <h1 class="navbar-brand navbar-brand_">
+            <a href="index.html">
+                <img src ="img\Fabilon_Logo_2017.png">
+            </a>
+        </h1>
+<!--Social Media Icons-->
+        <div id="mobile_center" class="navbar-text pull-right">
+            <a href="#"><i id="facebook_style" class="fa fa-facebook-square fa-3x"></i></a>
+            <a href="#"><i id="twitter_style" class="fa fa-twitter-square fa-3x"></i></a>
+            <a href="#"><i id="instagram_style" class="fa fa-instagram fa-3x"></i></a>
+            <a href="#"><i id="pinterest_style" class="fa fa-pinterest-square fa-3x"></i></a>
+        </div>
+    </div>
+</header>
+    <hr id="header_separator" class="visible-xs">
+
+<div class="container">
+    <div id="jumbotron_1" class="jumbotron">
+        <h1 id="jumb_title_1">Affichage de produits locaux</h1>
+        <h1 id="jumb_title_2">en ligne</h1>
+    </div>
+</div>
+
+<div class="container">
+    <div id="jumbotron_2" class="jumbotron">
+        <p id="jumb_parag_1">Comment afficher mes produits en ligne?</p>
+        <p id="jumb_parag_1">Comment promouvoir mes produits sur le web?</p>
+        <p id="jumb_parag_2">Contactez-nous!</p>
+        <a href="contact.html">
+            <button id="Register_button_style" class="button_contact">Contacter</button>
+        </a>
+        
+    </div>
+</div>
+
+
+<!--Specific to Home page:-->
+	<br>
+    <div class="container home_page">
+        <div class="row">
+            
+            <article class="main_page col-lg-12 col-md-12 col-sm-12 servBox">
+                <h2>Nouveautés</h2>
+                <div class="row">
+
+
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Assaisonement_gourmet.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Assaisonement_gourmet.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Assaisonement_gourmet.html">Les épices gourmandes - Assaisonnement gourmet</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">6.50 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Marinade_sauce_supreme.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Marinade_sauce_supreme.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Marinade_sauce_supreme.html">Les épices gourmandes - Marinade / Sauce suprême</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">6.50 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm hidden-md hidden-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Marinade_sauce_erable.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Marinade_sauce_erable.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Marinade_sauce_erable.html">Les épices gourmandes - Marinade & Sauce à l’érable</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">6.50 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix hidden-xs hidden-sm visible-md hidden-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Marinade&Assaisonement.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Marinade&Assaisonement.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Marinade&Assaisonement.html">Les Épices Gourmandes (Sauce, Marinade et Épices)</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">18.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                     
+                    <div class="clearfix visible-xs visible-sm hidden-md visible-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Bettraves.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Bettraves_Ketchup_Concombres.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Bettraves.html">Marinade maison Betterave</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">3.75 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+<!--Additional Product-->
+                   <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Ketchup.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Bettraves_Ketchup_Concombres.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Ketchup.html">Ketchup aux Fruits maison</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">4.75 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm visible-md hidden-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Concombres.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Bettraves_Ketchup_Concombres.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Concombres.html">Marinade maison Concombre</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">3.75 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Beurre_Erable.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Caramel_Gelee_Erable.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Beurre_Erable.html">Beurre d'érable</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">7.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm hidden-md visible-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Gelee_Erable.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Caramel_Gelee_Erable.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Gelee_Erable.html">Gelée à l’érable</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">6.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix hidden-xs hidden-sm visible-md hidden-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Champignons.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Champignons.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Champignons.html">Champignons</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">À venir</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm hidden-md hidden-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Chutney_poivre.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Chutney_poivre.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Chutney_poivre.html">Chutney poivré</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">4.75 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Confit_Oignon.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Confit_Oignon.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Confit_Oignon.html">Confit d’oignon</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">4.75 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm visible-md visible-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Coulie_cerises_terre.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Coulie_cerises_terre.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Coulie_cerises_terre.html">Coulis de petits fruits</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">5.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Cretons.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Cretons.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Cretons.html">Cretons de sanglier</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">6.50 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm hidden-md hidden-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Cuisse.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Cuisse.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Cuisse.html">Cuisse avec os</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">Sur demande</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix hidden-xs hidden-sm visible-md hidden-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Gateau_mousse_Erable.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Gateau_mousse_Erable.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Gateau_mousse_Erable.html">Gâteau mousse à l’érable</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">12.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm hidden-md visible-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Gelee_250ml_peche.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Gelee_peche.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Gelee_250ml_peche.html">Confitures et gelées de petits fruits</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">4.75 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Gelee_125ml.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Gelee_toutes.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Gelee_125ml.html">Confitures et gelées de petits fruits</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">3.50 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm visible-md hidden-lg"></div>
+<!--Additional Product-->
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Moutarde_douce_miel.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Moutarde_douce_miel.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Moutarde_douce_miel.html">Moutarde douce au miel</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">3.75 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+<!--Additional Product-->
+                    
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Moutarde_Forte_Erable.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Moutarde_Forte_Erable.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Moutarde_Forte_Erable.html">Moutarde forte à l’érable</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">5.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm hidden-md visible-lg"></div>
+<!--Additional Product-->
+
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Oeufs_caille.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Oeufs_caille.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Oeufs_caille.html">Oeufs de caille dans le vinaigre</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">5.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix hidden-xs hidden-sm visible-md hidden-lg"></div>
+<!--Additional Product-->
+                    
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Saucisse_Sanglier.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Saucisse_Sanglier.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Saucisse_Sanglier.html">Saucisses de sanglier (sans gluten)</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <span id="product_quantity_search">&nbsp;/kg</span>
+                                        <span class="product_price">23.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm hidden-md hidden-lg"></div>
+<!--Additional Product-->
+                    
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Sirop_Erable_bouteille.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Sirop_Erable.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Sirop_Erable_bouteille.html">Sirop d’érable en bouteille</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">9.75 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+<!--Additional Product-->
+
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Sirop_Erable_canne.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Sirop_Erable.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Sirop_Erable_canne.html">Sirop d’érable en canne</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">7.75 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm visible-md visible-lg"></div>
+<!--Additional Product-->
+
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Vinaigrette_Cerise_terre.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Vinaigrette_Cerise_terre.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Vinaigrette_Cerise_terre.html">Vinaigrette de Cerise de terre</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">7.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+<!--Additional Product-->
+
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Vinaigrette_Dijon_Erable.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Vinaigrette_Dijon_Erable.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Vinaigrette_Dijon_Erable.html">Vinaigrette Dijon et érable</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">7.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="clearfix visible-xs visible-sm hidden-md hidden-lg"></div>
+<!--Additional Product-->
+
+                    <article class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="thumb-pad7">
+                            <div class="thumbnail">
+                                <a href="ES_Vinaigrette_Erable.html">
+                                    <div class="image_gallery">
+                                       <ul>
+                                           <li>
+                                               <img src="img\ES_Vinaigrette_Erable.jpg">
+                                           </li>
+                                       </ul> 
+                                    </div>
+                                </a>
+                                <div class="main_info">
+                                    <div class="product_name">
+                                        <a href="ES_Vinaigrette_Erable.html">Vinaigrette à l’érable</a>
+                                    </div>
+                                    <div class="merchant_name">Érabliere du Sanglier</div>
+                                    <div>
+                                        <!-- <span id="product_quantity_search">&nbsp;/lb</span> -->
+                                        <span class="product_price">7.00 $</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+<!--Additional Product-->
+
+
+
+
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer>
+    <section>
+        <div class="container">
+            <div class="row">
+                <section id="footer_links" class="col-sm-4">
+                    
+                    
+                    <a id="footer_text" href="contact.html">Contactez-nous</a><br>
+                    
+                    <hr class="visible-xs">
+                </section>
+                <section class="social_media_icons col-sm-8"> 
+                    <div class="navbar-text pull-right">
+                        <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-square fa-3x"></i></a>
+                    </div>
+                </section>
+            </div>
+            <div id="copyright" class="text-center">&copy; 2017 Fabilon Tous droits réservés</div>
+        </div>
+    </section>
+</footer>
+
+<!--Remove this-->
+<div class="reyg">Web Design: <a href="http://www.metamorphozis.com" class="zxde">Free Website Templates</a></div> <!--Remove this-->
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
